@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion Dos</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/companias2.jpg','imagenes/Telefono-Nokia-del-futuro.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regrsar" data-back-btn-theme="b">
+<h1>TELEFONIA CELULAR</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false"><img src="imagenes/telefonos-celulares.jpg" width="438" height="215" alt="imagen prueva">
+</div>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/evolucion.jpg" alt="EVOLUCION" title="EVOLUCION" id="wows1_0"/></li>
+		<li><img src="data1/images/images.jpg" alt="images" title="images" id="wows1_1"/></li>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_2"/></li>
+		<li><img src="data1/images/motog4.jpg" alt="motog4" title="motog4" id="wows1_3"/></li>
+		<li><img src="data1/images/movilfuturo.jpg" alt="movil-futuro" title="movil-futuro" id="wows1_4"/></li>
+		<li><img src="data1/images/telefonomovil.jpg" alt="telefono-movil" title="telefono-movil" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/telefononokiadelfuturo.jpg" alt="jquery slideshow" title="Telefono-Nokia-del-futuro" id="wows1_6"/></a></li>
+		<li><img src="data1/images/telefonoscelulares.jpg" alt="telefonos-celulares" title="telefonos-celulares" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="EVOLUCION"><span><img src="data1/tooltips/evolucion.jpg" alt="EVOLUCION"/>1</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>2</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>3</span></a>
+		<a href="#" title="motog4"><span><img src="data1/tooltips/motog4.jpg" alt="motog4"/>4</span></a>
+		<a href="#" title="movil-futuro"><span><img src="data1/tooltips/movilfuturo.jpg" alt="movil-futuro"/>5</span></a>
+		<a href="#" title="telefono-movil"><span><img src="data1/tooltips/telefonomovil.jpg" alt="telefono-movil"/>6</span></a>
+		<a href="#" title="Telefono-Nokia-del-futuro"><span><img src="data1/tooltips/telefononokiadelfuturo.jpg" alt="Telefono-Nokia-del-futuro"/>7</span></a>
+		<a href="#" title="telefonos-celulares"><span><img src="data1/tooltips/telefonoscelulares.jpg" alt="telefonos-celulares"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Que es un telefono celular?</h2>
+ <p> Se muestra la definicion del telefono celular</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Historia de la Telefonia Celular</h2>
+  <p> Se muestra la historia del telefono celular</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Clasificacion de la tecnologia celular</h2>
+  <p> Muestra la clasificacion del telefono celular</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Compañias que manejan la telefonia celular en Mexico</h2>
+  <p> Muestra compañias del telefono celular en Mexico</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Telefonos celulares del futuro</h2>
+  <p>Muestra telefonos celulares del futuro</p>
+  </a>
+  </li>
+  </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div>
+  <img src="imagenes/logo.PNG" width="128" height="128">
+  </div>
+  <div>
+  <h4>Aplicacion Dos</h4>
+  <h4>Brillit Vivas Fierro </h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>¿Que es un telefono celular?</h1>
+  
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h4>Un teléfono celular es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.</h4>
+  <center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto del telefono celular</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/telefono-movil.JPG" width="70%" height="70%"></div>
+</div>
+</div>
+<div></center>
+  </div>
+  </div>
+  <h4>Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.</h4>
+   <center>
+     <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto del telefono celular</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/telefono_celular.jpg" width="70%" height="70%"></div>
+</div>
+</div>
+<div>
+   </center>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+  <h4> Aplicacion Dos, BVF</h4>
+  </div>
+</div>
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>HISTORIA DEL TELEFONO CELULAR</h1>
+  </div>
+<div data-role="content" align="center">
+  <div><h4>Con el paso del tiempo, la necesidad de estar cada vez más comunicados se hizo mayor, y es por ello que empresas y fabricantes relacionados al mundo de la telefonía se encuentran en una constante búsqueda por evolucionar y ofrecer cada vez mejores equipos y servicios. 
+El teléfono móvil o 
+ celular es un aparato indispensable en la actualidad; sin embargo su popularización ha sido un fenómeno muy reciente. En un principio el teléfono móvil solo podía ser usado en vehículos por su tamaño, reduciéndose posteriormente a una unidad portátil, y finalmente al tamaño de bolsillo que utilizamos hoy. Pero el teléfono en sí es solo una pequeña parte de un sistema de telefonía mayor.
+
+El sistema celular fue creado para satisfacer la demanda de comunicación móvil dentro de un espectro de radiofrecuencia limitado. Esta limitación es el factor original que motivó y sigue motivando el desarrollo del teléfono móvil, frente a otros de los varios factores como la duración de la batería o el tamaño del aparato. El sistema debe acomodar miles de usuarios dentro de un espectro reducido para transmitir cada vez más información. La transmisión de voz, pero actualmente también la demanda de imágenes, vídeos y acceso a internet, continúan aumentando los requisitos del sistem</h4>
+<center></center>
+  <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de la historia del celular</h1>
+<div>
+<br>
+</div>
+<div>
+  <p>&nbsp;</p>
+  <p><img src="imagenes/EVOLUCION.jpg" width="404" height="226" alt="imagen prueva"></p>
+</div>
+</div>
+</div>
+<div></div>
+</div> </div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+  
+</div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>CLASIFICACION DEL TELEFONO CELULAR</h1>
+   </div>
+   <div data-role="content" aling="center">
+  </div>
+       <h2> 
+    1. Clasificación de los celulares Diferencias, Sistemas operativos, Clasificación David Vizcarra Ramos Betsie Gpe. Alarcón Acosta 1°D
+    2. Índice  Diferencias entre cada uno.  Características windows phone.  Características iphone.  Características smartphone.  Smartphone.  Iphone.  Windows phone.
+    3. Diferencias entre IPhone, Smartphone y Windows phone  La pantalla de inicio. Puedes anclar prácticamente cualquier elemento a la inicio de tu Windows Phone smartphone e iphone y personalizar el color, el tamaño y la ubicación de tus Live Tiles
+    4. Diferencias entre IPhone, Smartphone y Windows phone Sensor y ahorro. Ajusta tu experiencia con el teléfono gracias a las aplicación preinstaladas de sensor y ahorro
+    5. Diferencias entre IPhone, Smartphone y Windows phone Calidad integrada. Windows Phone tiene muchas de las mismas aplicaciones que usabas en tu teléfono anterior. Pero también tiene fantásticas características integradas
+    6. Características  WINDOWS PHONE:  Tus Live Tiles  Fondo de Pantalla  Organiza tus Ventana  Windows 10
+    7. Características  IPHONE 6:  Pantalla 5.5 pulgas  Cámara 8 megapíxeles  Procesador A8 (próxima actualización)  16GB, 64GB o 128GB de almacenamiento
+    8.  SMARTHPHONE:  Diseño  Tamaño y peso  Vida de la Batería  Teclado de Google  Entorno Multimedia Características
+    9. Smartphone Es una variante de Linux. Su código fuente está disponible bajo diversas licencias de software libre y código abierto.
+    10. Iphone Sistema operativo móvil de Apple desarrollado originalmente para el iPhone, siendo después usado en el iPod Touch e iPad.
+    11. Windows Phone Después del verano empezará a llegar la actualización a Windows 10, y es una actualización que Microsoft llevará a todos los actuales teléfonos con Windows Phone 8.1.
+</h2></div>
+     <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de la clasificacion del telefono celular</h1>
+<div>
+<br>
+</div>
+<div> <img src="imagenes/clasificacion.jpg" width="468" height="279" alt="imagen sustitucion"></div>
+   <p>&nbsp;</p>
+   <p> </p>
+</div>
+</div>
+</div>
+<div></div>
+</div> </div>
+  </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Dos, BVF</h4>
+</div>
+     </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>COMPAÑIAS DE TELEFONOS CELULARES EN MEXICO
+   </div>
+    <div data-role="content" aling="center">
+      <div>
+         <center><h4> Las compañías de telefonía móvil en México han reportado perdidas en sus últimos informes financieros, pero algo que destaca en ellos es el número de suscriptores que ganaron durante el año pasado, propiciado principalmente por la disminución de las tarifas y el incremento de beneficios que los usuarios reciben.
+
+Resulta curioso que los usuarios de prepago son los que más crecieron en el último cuatrimestre del 2016. Mostrando que el sector de las recargas móviles aún es un mercado muy rentable para todos los operadores móviles establecidos. </h4>
+         
+         <ul>
+           <a href="http://www.telcel.com/" target="_self">TELCEL</a>
+         </ul>
+         <ul>
+           <a href="https://mi.movistar.com.mx/extranet/Autogestion/registro/login.xhtml" target="_self">MOVISTAR</a>
+         </ul>
+         <ul>
+           <a href="http://www.tiendeo.mx/Tiendas/puebla/at-and-t-av-poniente-col-huexotitla/19281" target="_self">IUSACELL</a>
+         </ul>
+         <ul>
+           <a href="https://www.unefon.com.mx/?gclid=CKvutNiqiNMCFQ-4wAodJnUDQQ&gclsrc=aw.ds" target="_self">UNEFON</a>
+         </ul>
+         <ul> 
+           <a href="https://www.att.com.mx/" target="_self">AT&T</a>
+         </ul>
+         </CENTER></FONT>
+           
+           <p>El servicio de telefonía móvil en México</strong> alcanza, según estimaciones para el año 2013, a un total de 90 millones de líneas celulares activas (la población mexicana se calcula cerca a los 120 millones de habitantes</p>
+           <p>El inicio de la telefonía móvil en México se remonta a 1977, cuando se solicitó a la SCT de México (Secretaría de Comunicaciones y Transportes) una concesión para instalar, operar y explotar un sistema de radiotelefonía móvil en el Distrito Federal. Pero no fue hasta 1981 cuando se inició la comercialización de este servicio, el cual fue conocido por el público como Teléfono en el Auto, con el cual se logró, en un lapso de ocho meses, dar servicio a 600 usuarios.</h4>
+         </p>
+ <div data-role="collapsible" data-content-theme="false">
+<h1>Foto de companias del telefono celular en Mexico</h1>
+<div>
+<br>
+</div>
+<div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/companias2.jpg',1)"><img src="imagenes/Compania1.png" width="490" height="266" id="Image7"></a></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div></div>
+</div> </div>
+  </div>
+           <p>&nbsp;</p>
+        </center>
+         <center></center>
+       </div>
+     </div>
+<div data-role="footer" data-them="b" data-position="fixed">
+         <h4>Aplicacion Dos, BVF</h4>
+</div>
+    </div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <center>
+          <h1>TELEFONOS DEL FUTURO</h1></center>
+  </div>
+    <div data-role="content" aling="center">
+       <div>
+         <h2>Fabricantes como LG y Samsung han estado coqueteando con la idea desde hace ya un tiempo. Conforme las pantallas se hacen más y más grandes, vemos que hay un límite en el tamaño en el que es cómodo manejar un smartphone, especialmente.
+
+Por el momento podríamos soñar con smartphones cilíndricos cuya pantalla pudiera desplegarse como un rollo en caso de necesitarlo. Además, podríamos ver un nuevo auge de los llamados ‘flip phones’ o ‘clamshell’, esta vez con pantalla en todo su interior.
+2. Nuevas formas de autenticación
+
+Códigos PIN, contraseñas, patrones de desbloqueo, sensores de huellas abajo, detrás o al lado. Estos son los métodos más comunes para autenticarnos en nuestro equipo. Sin embargo, compañías como Qualcomm están desarrollando nuevos sensores de huellas integrados en la pantalla del equipo, basados en el sonar. Así, por medio de ultrasonido sería posible identificar la superficie de cada dedo en particular.
+
+Adicionalmente, otras compañías como Fujitsu están desarrollando tecnología de reconocimiento de iris no invasiva, y así ya tenemos un equipo con cámaras capaces de diferenciar el ojo del usuario. Microsoft también presentó una solución similar en sus recientes equipos Lumia 950 y Lumia 950 XL.
+
+3. Baterías más duraderas Pareciera que los usuarios nos rendimos ante la duración de la batería de los actuales smartphones. Que estos tengan una autonomía de batería de más de un día suele sorprendernos gratamente. En el futuro, se espera que tengamos mejores duraciones de batería en nuestros smartphones, sin un compromiso grande en el peso o la dimensión de los dispositivos.
+
+Por ejemplo, hay avances en las baterías de iones de aluminio, aunque todavía estas baterías están en una fase inicial. Por otro lado, también hay investigaciones en cómo aumentar el nivel de litio sin que la batería llegue a ser peligrosa, gracias a materiales como el Kevlar.
+
+El desarrollo tanto de la carga rápida inalámbrica como por los conectores USB tipo C permitirá que duremos menos tiempo pegados a la pared, a la hora de cargar los celulares del futuro. Ahora, lo importante es que los fabricantes unifiquen los protocolos, pues por ejemplo, los nuevos Nexus 5X y Nexus 6P no traen la carga rápida de Qualcomm, y por lo tanto no todos los cargadores son compatibles con estos dispositivos.
+
+4. Sensores 3D
+Project Tango es uno de los proyectos alternativos de Google. Por el momento consiste en una tableta que tiene varias cámaras que le permiten analizar y entender su entorno. Esta tecnología, que por el momento no se encuentra disponible para los consumidores, podría ser el futuro de la realidad aumentada en los móviles. Además, esto permitiría a personas con discapacidad visual moverse por un espacio que no conoce, mediante comandos de voz.
+
+Por otro lado, en el más reciente Google I/O, la compañía nos presentó su proyecto Soli, que por medio de un pequeño sonar, se podrá interactuar con los dispositivos sin tocarlos. Actualmente, algunos smartphones se pueden controlar a través de gestos en el aire que son captados por medio de cámaras, pero la posibilidad que nos da Soli es increíble, en especial porque nos da un rango de acción gigante, no solo en los celulares del futuro, sino en otro tipo de dispositivos.
+
+5. Nuevos materiales
+
+El grafeno parece ser el próximo material a utilizar en el ámbito de la electrónica de consumo. Desde la fabricación de baterías, que permiten una carga más rápida y mayor concentración de energía por kilogramo, hasta pantallas más resistentes, flexibles y prácticamente irrompibles. Por otro lado, el costo de hacer un equipo con este material sería en teoría menor que el costo actual, lo que haría que la tecnología de punta fuera mas accesible para todos los públicos y la viéramos en los celulares del futuro. </h2></div>
+         <h4>&nbsp;</h4></div>
+         <center><div data-role="collapsible" data-content-theme="false">
+<h1> Foto del telefono celular del futuro</h1>
+<div>
+<br>
+</div>
+<div>
+  <p>&nbsp;</p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/Telefono-Nokia-del-futuro.jpg',1)"><img src="imagenes/movil-futuro.jpg" width="635" height="290" id="Image"></a></p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+<div></div>
+</div> </div>
+  </div></center>
+       </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Dos, BVF</h4>
+</div>
+   </div>
+
+       
+  
+  
+</body>
+</html>
